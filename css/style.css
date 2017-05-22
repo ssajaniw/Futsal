@@ -1,0 +1,453 @@
+
+ 
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+p, input, textarea{
+	font-family: 'Lora', serif;
+}
+
+section{
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+section header{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+p{
+	color: #808080;
+}
+
+
+
+a{
+	color: white;
+}
+
+a:hover,
+a:focus{
+	color: green;
+}
+/* cover section css start here */
+.logo{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.menu-toggle{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.menu{
+	width: 300px;
+	display: block;
+	background: #333;
+	height: 100%;
+	top: 0;
+	right: -300px;
+	position: fixed;
+	z-index: 100;
+	text-align: center;
+	transition: right 0.4s;
+}
+
+.menu.nav-expanded{
+	right: 0;
+}
+
+.menu .close{
+	color: #fff;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+.menu h3{
+	margin-top:50px;
+	text-transform: uppercase;
+}
+
+.menu .nav{
+	padding: 0;
+}
+
+.menu .nav > li > a{
+	color: #fff;
+}
+
+.menu .nav > li > a:hover,
+.menu .nav > li > a:focus{
+	background: transparent;
+	color: #fa694e;
+}
+
+.jumbotron{
+	text-align: center;
+	position: relative;
+	background: url('../img/004.jpg');
+
+	background-size: cover;
+	color: #fff;
+	height: 670px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.jumbotron .mask{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.5;
+}
+.jumbotron h1, 
+	.jumbotron .h1
+	 {
+	 	margin-top: 20px;
+		font-size: 30px;
+	}
+
+.jumbotron p{
+	font-size: 20px;
+	color: #fff;
+}
+
+.jumbotron .container{
+	margin-top: 20%;
+}
+
+.jumbotron h1{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.header-info{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.headerfixed{
+	position: fixed;
+	z-index: 999;
+	box-shadow: 5px 5px 2px #888888;
+	height: 100px;
+	width: 100%;
+	background-image: url('../img/headwall.png');
+	
+	
+}
+.headermask{
+	background-color: #333;
+	opacity: 0.5;
+	height: 100%;
+	padding-right: -15px;
+	padding-left: -15px;
+	width: 100%;
+}
+ .slidder{
+ 	height: 450px;
+ 	overflow: hidden;
+ 	
+ }
+.sliderup{
+	margin-top: 100px;
+	height: auto;
+}
+.showdown{
+	margin-top: 5px;
+}
+/* cover section css */
+
+
+
+/* feature section */
+.service-item{
+	text-align: center;
+}
+
+.service-item .icon{
+	border: 1px #b3b3b3 solid;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	display: block;
+	margin-bottom: 60px;
+}
+
+.service-item .icon i{
+	line-height: 110px;
+	font-size: 45px;	
+	color: green;
+}
+
+.service-item .icon:hover{
+	background-color: #27ae60;
+	color: white;
+	box-shadow: 2px 2px 3px 1px black;
+}
+
+.service-item .icon:hover i{
+	color: #fff;
+
+}
+.service-item h3{
+	margin-bottom: 60px;
+}
+/* feature sectn ends here */
+/* gallery sectn */
+section.darker{
+	background-image: url('../img/back1.png');
+	background-position: center;
+	background-color: #ecf0f1;
+	box-shadow: 5px 15px 2px #black;
+}
+#gallery header {
+	color: white;
+}
+/* gallery end */
+
+/* price css */
+
+.poo{
+	
+	width: 90%;
+	height:200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.headday{
+	width: 100%;
+	padding: 10px;
+	background-color: #27ae60;
+	text-align: center;
+
+}
+.bodyday{
+	padding: 8px;
+	text-align: center;
+	background-color: #2c3e50;
+	color: white;
+}
+
+.offertext {
+	margin-top: 20px;
+	line-height: 20px;
+	color: #3498db;
+
+}
+
+
+/* reserve */
+#book{
+	background-color: #ecf0f1;
+
+}
+.calender{
+	margin: 0 auto;
+	
+	display: block;
+	margin-bottom: 20px;
+}
+.framei{
+	border: 1px;
+	 width:400px; height:400px; frameborder:0px;
+}
+.booknote{
+	padding-top: 10px;
+	color: #34495e;
+	background-color: #ecf0f1;
+}
+#conformbtn{
+	background-color: #7f8c8d;
+	padding: 5px;
+	border: 0px;
+	margin-top: 5px;
+	color: white;
+	box-shadow: 1px 1px 1px 1px #bdc3c7;
+}
+.fa-bell{
+	color: #c0392b;
+}
+.alertbtn{
+	padding: 5px;
+	background-color: #2c3e50;
+	border: 0px;
+	box-shadow: 2px 2px 1px black;
+	color: white;
+	margin-top: 8px;
+}
+/* contacts css */
+
+.map-wrapper{
+	position: relative;
+}
+
+.map-wrapper .marker{
+	position: absolute;
+	margin-top: -55px;
+	margin-left: -130px;
+	top: 50%;
+	left: 50%;
+	width: 260px;
+	height: 110px;
+	background: #333;
+	color: #fa694e;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 110px;
+	text-align: center;
+}
+
+.map-wrapper .marker span:after{
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -10px;
+	width: 20px;
+	height: 15px;
+	text-align: center;
+	border-top: 12px solid #333;
+	border-left: 15px outset transparent;
+	border-right: 15px outset transparent;
+}
+
+.map-canvas{
+	margin-bottom: 70px;
+	background: #ddd;
+	width: 100%;
+	height: 300px;
+}
+
+
+.btn{
+	padding: 15px 30px;
+	border-radius: 0;
+	-webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+
+.btn-primary{
+	background: #27ae60;
+	border-width: 2px;
+	color: #fff;
+	border-color: #27ae60;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background: #fff;
+	color: #27ae60;
+	border-color: #27ae60;
+}
+address{
+	margin-bottom: 50px;
+}
+
+address span{
+	margin-top:0;
+	margin-bottom: 25px;
+	font-size: 20px;
+	display: block;
+}
+
+
+form{
+	margin-bottom: 70px;
+
+}
+
+.form-group .btn{
+	width: 100%;
+	text-transform: uppercase;
+}
+.form-control{
+	padding: 17px 25px;
+	font-size: 15px;
+	height: auto;
+	border-radius: 0;
+	background: #f1f4f7;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: all 0.5;
+	transition: all 0.5s;
+	border: 1px solid #fff;
+}
+
+.form-control:focus{
+	border: 1px solid #454554;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* contact section end */
+
+
+/* footer sectn css here */
+footer{
+	padding: 75px 0;
+	background-color: #333;
+	color: #fff;
+}
+
+footer p{
+	color: #fff;
+}
+
+ul.social-icons{
+	list-style: none;
+	padding: 0;
+}
+
+ul.social-icons > li{
+	float: left;
+	margin-right: 25px;
+}
+
+ul.social-icons > li > a{
+	color: #333;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 100%;
+	background: #fff;
+	display: block;
+	text-align: center;
+}
+/* footer end */
+
+
+/* media queries here */
+@media screen and (min-width: 1000px){
+
+	.jumbotron h1, 
+	.jumbotron .h1 {
+		font-size: 75px;
+	}
+}
+@media screen and (max-width: 700px){
+	.framei{
+	
+	 width:340px !important; height:400px; 
+}
+}
+@media screen and (max-width: 700px){
+	.mapframe{
+	
+	 width:340px !important; height:400px; 
+}
+}
